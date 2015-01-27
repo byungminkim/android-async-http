@@ -31,6 +31,8 @@ public class ExampleIntentService extends IntentService {
     public void onStart(Intent intent, int startId) {
         Log.d(LOG_TAG, "onStart()");
         super.onStart(intent, startId);
+
+        Log.d(LOG_TAG, "이것은 테스트임");
     }
 
     @Override
